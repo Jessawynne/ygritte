@@ -1,32 +1,21 @@
-# The directory Mix will write compiled artifacts to.
-/_build/
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
+/.elixir_ls
 
-# The directory Mix downloads your dependencies sources to.
-/deps/
-
-# Where 3rd-party dependencies like ExDoc output generated docs.
-/doc/
-
-# Ignore .fetch files in case you like to edit your project deps locally.
-/.fetch
-
-# If the VM crashes, it generates a dump, let's ignore it too.
+# Generated on crash by the VM
 erl_crash.dump
 
-# Also ignore archive artifacts (built via "mix archive.build").
-*.ez
-
-# Ignore package tarball (built via "mix hex.build").
-ygritte-*.tar
-
-# If NPM crashes, it generates a log, let's ignore it too.
+# Generated on crash by NPM
 npm-debug.log
 
-# The directory NPM downloads your dependencies sources to.
-/assets/node_modules/
+# Static artifacts
+/assets/node_modules
 
 # Since we are building assets from assets/,
 # we ignore priv/static. You may want to comment
@@ -40,3 +29,11 @@ npm-debug.log
 # secrets files as long as you replace their contents by environment
 # variables.
 /config/*.secret.exs
+
+/public/static
+.DS_Store
+
+/rel/plugins
+.deliver/releases/
+config/ssh_key.pub
+/tmp

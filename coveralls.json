@@ -1,0 +1,36 @@
+{
+    "default_stop_words": [
+        "defmodule",
+        "defrecord",
+        "defimpl",
+        "defexception",
+        "defprotocol",
+        "defstruct",
+        "def.+(.+\\\\.+).+do",
+        "^\\s+use\\s+"
+    ],
+
+    "custom_stop_words": [],
+
+    "coverage_options": {
+        "treat_no_relevant_lines_as_covered": true,
+        "output_dir": "cover/",
+        "minimum_coverage": 98
+    },
+    "skip_files": [
+        "lib/ygritte.ex",
+        "lib/ygritte/application.ex",
+        "lib/ygritte/repo.ex",
+        "lib/ygritte_web.ex",
+        "lib/ygritte_web/channels/user_socket.ex",
+        "lib/ygritte_web/endpoint.ex",
+        "lib/ygritte_web/gettext.ex",
+        "lib/ygritte_web/router.ex",
+        "lib/ygritte_web/views/error_helpers.ex",
+        "test/support/channel_case.ex",
+        "test/support/conn_case.ex",
+        "test/support/data_case.ex",
+        "test/support/factory.ex",
+        "lib/ygritte_web/views/input_helpers.ex"
+    ]
+}
