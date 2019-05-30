@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 module.exports = (env, options) => ({
   optimization: {
@@ -21,17 +22,44 @@ module.exports = (env, options) => ({
   },
   module: {
     rules: [
-      {
+       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
       },
+
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader']
+        test: /\.(css|sass|scss)$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: 'css-loader'},
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: () => [autoprefixer()]
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: ['./node_modules']
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: '../fonts'
+          }
+        }]
       }
+
     ]
   },
   plugins: [

@@ -1,0 +1,6 @@
+@import "material-components-web/material-components-web";
+
+.foo-button {
+  @include mdc-button-ink-color(teal);
+  @include mdc-states(teal);
+}
