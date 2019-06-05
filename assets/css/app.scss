@@ -1,5 +1,8 @@
-/* This file is for your main application css. */
+// Import global Material Theming variables
+@import "./theme.scss";
 
-@import "./custom.scss";
+// Import styles for each MDC Web component
+@import "material-components-web/material-components-web";
+
 
 

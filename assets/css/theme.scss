@@ -1,0 +1,32 @@
+/*  Typography */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+$mdc-typography-font-family: unquote("Nunito Sans, sans-serif");
+
+/* Shape */
+
+$mdc-shape-small-component-radius: 12px;
+$mdc-shape-medium-component-radius: 12px;
+$mdc-shape-large-component-radius: 16px;
+
+/* Color */
+
+$mdc-theme-primary: #5d77ae;
+$mdc-theme-secondary: #ecf0f4;
+
+// Theme background ($mdc-theme-background) appears behind scrollable content. 
+// $mdc-theme-surface: #ffffff;
+
+// Surface color ($mdc-theme-surface) is mapped to the surface of components such as cards, sheets, and menus. 
+// $mdc-theme-background: #ffffff;
+
+// Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
+// $mdc-theme-error: #b00020;
+
+
+// “On-” colors define how text, icons, and strokes are colored in relation to the surface on which they appear. If you are updating these manually, be sure to consider accessible color contrast for the value pairs.
+
+// $mdc-theme-on-primary: #ffffff;
+// $mdc-theme-on-secondary: #ffffff;
+// $mdc-theme-on-error: #ffffff;
+// $mdc-theme-on-surface: #000000;
