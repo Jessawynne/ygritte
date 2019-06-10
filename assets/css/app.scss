@@ -1,8 +1,17 @@
 // Import global Material Theming variables
 @import "./theme.scss";
+@import "./header.scss";
 
 // Import styles for each MDC Web component
 @import "material-components-web/material-components-web";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/card/mdc-card";
+@import "@material/elevation/mdc-elevation";
+@import "@material/image-list/mdc-image-list";
 
+/* Card Collection Grid */
+.my-masonry-image-list {
+  @include mdc-image-list-masonry-columns(6);
+}
 
 

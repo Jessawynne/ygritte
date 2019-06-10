@@ -67,3 +67,4 @@ module.exports = (env, options) => ({
     new CopyWebpackPlugin([{ from: 'static/', to: '../' }])
   ]
 });
+

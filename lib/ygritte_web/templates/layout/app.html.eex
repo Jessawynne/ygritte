@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="mdc-typography" lang="en">
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
   </head>
-  <body class="mdc-typography">
+  <body> 
     <%= render YgritteWeb.SharedView, "_header.html", assigns %>
 
-    <main role="main" class="container">
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-      <%= render @view_module, @view_template, assigns %>
-    </main>
+    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust"> 
+      <main class="main-content" id="main-content">
+        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+    </div>
 
     <%= render YgritteWeb.SharedView, "_footer.html", assigns %>
-
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
+

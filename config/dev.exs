@@ -14,6 +14,8 @@ config :ygritte, YgritteWeb.Endpoint,
   watchers: [
     node: [
       "node_modules/webpack/bin/webpack.js",
+      "--watch", 
+      "--color",
       "--mode",
       "development",
       "--watch-stdin",
