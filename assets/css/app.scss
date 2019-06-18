@@ -1,17 +1,141 @@
 // Import global Material Theming variables
 @import "./theme.scss";
-@import "./header.scss";
 
 // Import styles for each MDC Web component
 @import "material-components-web/material-components-web";
-@import "@material/layout-grid/mdc-layout-grid";
 @import "@material/card/mdc-card";
+@import "@material/drawer/mdc-drawer";
 @import "@material/elevation/mdc-elevation";
 @import "@material/image-list/mdc-image-list";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/line-ripple/mdc-line-ripple";
+@import "@material/list/mdc-list";
+@import "@material/menu/mdc-menu";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/select/mdc-select";
+@import "@material/textfield/mdc-text-field";
+@import "@material/textfield/icon/mdc-text-field-icon";
+@import "@material/top-app-bar/mdc-top-app-bar";
 
-/* Card Collection Grid */
-.my-masonry-image-list {
-  @include mdc-image-list-masonry-columns(6);
+html {
+  height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
+.youscience-logo-white {
+    width: 75%;
+    height: 35px;
+    background-image: url("../images/youscience-logo-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.drawer-top-app-bar {
+  position: absolute;
+}
+
+.drawer-frame {
+  display: flex;
+  width: 255px;
+  height: 100vh;
+  margin-top: 64px;
+  position: fixed;
+  background-color: $mdc-theme-background;
+  z-index: 3;
+}
+
+.mdc-drawer {
+  height: 100vh;
+  border-radius: 0 0 0 0;
+  .mdc-drawer__content {
+    height: 100%;
+    overflow-y: auto;
+    flex: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.drawer-frame-app-content {
+  position: relative;
+  .drawer-main-content {
+    overflow: auto;
+    height: 100%;
+    padding: 0 18px;
+  }
+}
+
+.app-layout-grid {
+  margin-left: 255px;
+  height: auto;
+  .grid-card {
+    margin-bottom: 24px;
+  }
+}
+
+/* Card */
+
+.mdc-card {
+  padding: 1rem;
+  min-width: 300px;
+}
+
+.mdc-button__label {
+  a:link {
+    text-decoration: none;
+    color: $mdc-theme-primary;
+  }
+  a:visited {
+    text-decoration: none;
+    color: $mdc-theme-primary;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $mdc-theme-primary;
+  }
+  a:active {
+    text-decoration: none;
+    color: $mdc-theme-primary;
+  }
+}
+
+.resp-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 124%;
+  position: relative;
+}
+
+.mdc-table {
+  background-color: $mdc-theme-background;
+  border-collapse: collapse;
+  th,
+  td {
+    padding: 6px 24px;
+  }
+  td:not(:first-child) {
+    text-align: right;
+  }
+  .mdc-checkout,
+  .mdc-icon-button {
+    color: rgba(56, 64, 71, 0.6);
+  }
+}
+
+.filter-width-class--medium {
+  width: 400px;
+}
+
+.filter-width-class--small {
+  width: 200px;
+}
+
+.show-row-width-class {
+  width: 200px;
+}

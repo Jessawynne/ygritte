@@ -11,8 +11,11 @@ $mdc-shape-large-component-radius: 16px;
 
 /* Color */
 
-$mdc-theme-primary: #5d77ae;
-$mdc-theme-secondary: #ecf0f4;
+// Current YouScience Color Palette
+// $mdc-theme-primary: #5d77ae;
+// $mdc-theme-secondary: #ecf0f4;
+$mdc-theme-primary: #0350c8;
+$mdc-theme-secondary: #c8034f;
 
 // Theme background ($mdc-theme-background) appears behind scrollable content. 
 $mdc-theme-background: #ffffff;
@@ -23,44 +26,9 @@ $mdc-theme-surface: #ffffff;
 // Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
 $mdc-theme-error: #b00020;
 
-
 // “On-” colors define how text, icons, and strokes are colored in relation to the surface on which they appear. If you are updating these manually, be sure to consider accessible color contrast for the value pairs.
-
 $mdc-theme-on-primary: #ffffff;
 $mdc-theme-on-secondary: #ffffff;
 $mdc-theme-on-error: #ffffff;
 $mdc-theme-on-background: #384047;
 $mdc-theme-on-surface: #384047;
-
-/* Card */
-.mdc-card {
-  padding:1rem;
-  min-width:300px;
-}
-
-.mdc-button__label {
-  a:link {
-  text-decoration: none;
-  color: $mdc-theme-primary;
-  }
-  a:visited {
-    text-decoration: none;
-    color: $mdc-theme-primary;
-  }
-  a:hover {
-    text-decoration: none;
-    color: $mdc-theme-primary;
-  }
-  a:active {
-    text-decoration: none;
-    color: $mdc-theme-primary;
-  }
-}
-
-.resp-container {
-    width:100%;
-    height:0;
-    padding-bottom:124%;
-    position:relative;
-}
-

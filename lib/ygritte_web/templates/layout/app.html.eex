@@ -12,15 +12,19 @@
   <body> 
     <%= render YgritteWeb.SharedView, "_header.html", assigns %>
 
-    <div class="mdc-drawer-app-content mdc-top-app-bar--fixed-adjust"> 
-      <main class="main-content" id="main-content">
-        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+    <div class="drawer-frame-app-content mdc-drawer-app-content">
+      <%= render YgritteWeb.SharedView, "_drawer.html", assigns %>
+      <div class="mdc-drawer-app-content mdc-top-app-bar--fixed"> 
+        <main>
+          <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+          <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+          <%= render @view_module, @view_template, assigns %>
+        </main>
+      </div>
     </div>
 
     <%= render YgritteWeb.SharedView, "_footer.html", assigns %>
+
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
