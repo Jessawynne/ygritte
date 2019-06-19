@@ -75,7 +75,7 @@ body {
   margin-left: 255px;
   height: auto;
   .grid-card {
-    margin-bottom: 24px;
+    padding: 24px;
   }
 }
 
@@ -108,34 +108,108 @@ body {
 .resp-container {
   width: 100%;
   height: 0;
-  padding-bottom: 124%;
+  padding-bottom: 107%;
   position: relative;
 }
 
-.mdc-table {
-  background-color: $mdc-theme-background;
-  border-collapse: collapse;
-  th,
-  td {
-    padding: 6px 24px;
-  }
-  td:not(:first-child) {
-    text-align: right;
-  }
-  .mdc-checkout,
-  .mdc-icon-button {
-    color: rgba(56, 64, 71, 0.6);
+.resp-container__large {
+  width: 100%;
+  height: 0;
+  padding-bottom: 49%;
+  position: relative;
+}
+
+// .mdc-table {
+//   background-color: $mdc-theme-background;
+//   border-collapse: collapse;
+//   th,
+//   td {
+//     padding: 6px 24px;
+//   }
+//   td:not(:first-child) {
+//     text-align: right;
+//   }
+//   .mdc-checkout,
+//   .mdc-icon-button {
+//     color: rgba(56, 64, 71, 0.6);
+//   }
+// }
+
+// .filter-width-class--medium {
+//   width: 400px;
+// }
+
+// .filter-width-class--small {
+//   width: 200px;
+// }
+
+// .show-row-width-class {
+//   width: 200px;
+// }
+
+.mdc-card {
+  padding: 0px;
+}
+
+.app-layout-grid .grid-card {
+    padding: 0px;
+}
+
+.grid__header {
+  display: block;
+  height: 18px;
+  margin: 0 0 8px 8px;
+  color: $mdc-theme-on-background;
+  font: 300 18px/14px;
+  letter-spacing: 0;
+  h3 {
+    margin-top: 0px;
   }
 }
 
-.filter-width-class--medium {
-  width: 400px;
+.grid-card__large {
+  width: 640x;
+  height: 400px;
 }
 
-.filter-width-class--small {
-  width: 200px;
+.grid-card__medium {
+  width: 320px;
+  height: 400px;
 }
 
-.show-row-width-class {
-  width: 200px;
+.grid-card-content {
+  padding: 24px 24px 0px;
+  display: block;
+  .grid-card__header {
+    color: $mdc-theme-on-background;
+    font: 400 14px;
+  } 
+  .grid-card__graph {
+    margin: 12px 0px;
+  }
+}
+
+.grid-card-divider {
+  display: block;
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin: 0;
+  border-top-color: $theme-border;
+  margin-bottom: auto;
+}
+
+.grid-card__footer {
+  display: block;
+  height: 40px;
+  margin-top: auto;
+  text-align: right;
+  padding: 0px 24px;
+  .grid-card__button {
+    padding: 0px;
+  }      
+  .grid-card__link-icon {
+    color: $mdc-theme-primary;
+    margin-bottom: 2px;
+    padding: 0px;
+  }
 }

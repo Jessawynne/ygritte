@@ -5,9 +5,9 @@ $mdc-typography-font-family: unquote("Nunito Sans, sans-serif");
 
 /* Shape */
 
-$mdc-shape-small-component-radius: 12px;
-$mdc-shape-medium-component-radius: 12px;
-$mdc-shape-large-component-radius: 16px;
+$mdc-shape-small-component-radius: 8px;
+$mdc-shape-medium-component-radius: 8px;
+$mdc-shape-large-component-radius: 8px;
 
 /* Color */
 
@@ -32,3 +32,4 @@ $mdc-theme-on-secondary: #ffffff;
 $mdc-theme-on-error: #ffffff;
 $mdc-theme-on-background: #384047;
 $mdc-theme-on-surface: #384047;
+$theme-border: #ecf0f4;
