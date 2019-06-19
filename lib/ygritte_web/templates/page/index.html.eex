@@ -10,7 +10,7 @@
           </section>
         </div>
 
-        <!-- Graph Card -->
+        <!--  Large Graph Card -->
         <div class="mdc-layout-grid__cell--span-6">
           <div class="mdc-card mdc-elevation--z4 grid-card__large">
             <section class="grid-card-content">
@@ -32,13 +32,13 @@
         </div> <!-- End of layout grid - cell -->
         <!-- End graph card -->
 
-        <!-- Graph Card -->
+        <!-- Medium Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
           <div class="mdc-card mdc-elevation--z4 grid-card__medium">
             <section class="grid-card-content">
               <div class="grid-card__header">Summer lull of users</div>
               <div class="grid-card__graph">
-                <div class="resp-container">
+                <div class="resp-container__medium">
                   <iframe src="https://giphy.com/embed/l2JdTgYZ7VG4EeBVe" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
               </div>
@@ -54,13 +54,13 @@
         </div> <!-- End of layout grid - cell -->
         <!-- End graph card -->
 
-        <!-- Graph Card -->
+        <!-- Medium Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
           <div class="mdc-card mdc-elevation--z4 grid-card__medium">
             <section class="grid-card-content">
               <div class="grid-card__header">User beer consumption</div>
               <div class="grid-card__graph">
-                <div class="resp-container">
+                <div class="resp-container__medium">
                   <iframe src="https://giphy.com/embed/l3Uct2K9N3CqxeCoU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
               </div>
@@ -69,6 +69,91 @@
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
                 <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
+              </button>
+            </div>
+          </div> <!-- End of mdc card -->
+        </div> <!-- End of layout grid - cell -->
+        <!-- End graph card -->
+
+        <!-- Small Graph Card -->
+        <div class="mdc-layout-grid__cell--span-3">
+          <div class="mdc-card mdc-elevation--z4 grid-card__small">
+            <section class="grid-card-content">
+              <div class="grid-card__header">Small graph card</div>
+              <div class="grid-card__graph" style="height: 100%">
+              </div>
+            </section>
+            <div class="grid-card-divider"></div>
+            <div class="grid-card__footer">
+              <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
+                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
+              </button>
+            </div>
+          </div> <!-- End of mdc card -->
+        </div> <!-- End of layout grid - cell -->
+        <!-- End graph card -->
+
+        <!-- Small Graph Card -->
+        <div class="mdc-layout-grid__cell--span-3">
+          <div class="mdc-card mdc-elevation--z4 grid-card__small">
+            <section class="grid-card-content">
+              <div class="grid-card__header">Small graph card</div>
+              <div class="grid-card__graph" style="height: 100%">
+              </div>
+            </section>
+            <div class="grid-card-divider"></div>
+            <div class="grid-card__footer">
+              <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
+                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
+              </button>
+            </div>
+          </div> <!-- End of mdc card -->
+        </div> <!-- End of layout grid - cell -->
+        <!-- End graph card -->
+
+        <!-- Small Graph Card -->
+        <div class="mdc-layout-grid__cell--span-3">
+          <div class="mdc-card mdc-elevation--z4 grid-card__small">
+            <section class="grid-card-content">
+              <div class="grid-card__header">Small graph card</div>
+              <div class="grid-card__graph" style="height: 100%">
+              </div>
+            </section>
+            <div class="grid-card-divider"></div>
+            <div class="grid-card__footer">
+              <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
+                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
+              </button>
+            </div>
+          </div> <!-- End of mdc card -->
+        </div> <!-- End of layout grid - cell -->
+        <!-- End graph card -->
+
+        
+        <!-- Search/Filter Card -->
+        <div class="mdc-layout-grid__cell--span-3">
+          <div class="mdc-card mdc-elevation--z4 grid-card__small">
+            <section class="grid-card-content">
+              <div class="mdc-text-field grid-card-search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
+                <i class="material-icons mdc-text-field__icon grid-card-search__icon">search</i>
+                <input class="mdc-text-field__input grid-card-search__input">
+                <div class="mdc-notched-outline">
+                  <div class="mdc-notched-outline__leading"></div>
+                  <div class="mdc-notched-outline__notch">
+                    <label class="mdc-floating-label grid-card-search__label">Search</label>
+                  </div>
+                  <div class="mdc-notched-outline__trailing"></div>
+                </div>
+              </div>
+            </section>
+            <div class="grid-card-divider"></div>
+            <div class="grid-card__footer">
+              <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
+                <span class="mdc-button__label"><a href="/">Past Searches</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>

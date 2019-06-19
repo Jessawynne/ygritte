@@ -25,22 +25,24 @@ import "phoenix_html"
 
 import {MDCTextField} from '@material/textfield';
 
-const searchTextField = new MDCTextField(document.querySelector('.search-text-field'));
+const searchTextField = new MDCTextField(document.querySelector('.grid-card-search__text-field'));
+// const searchTextField = new MDCTextField(document.querySelector('.search__text-field'));
 // const goToTextField = new MDCTextField(document.querySelector('.goto-text-field'));
 
 import {MDCTextFieldIcon} from '@material/textfield/icon';
 
-const icon = new MDCTextFieldIcon(document.querySelector('.mdc-text-field__icon'));
+const icon = new MDCTextFieldIcon(document.querySelector('.grid-card-search__icon'));
+// const icon = new MDCTextFieldIcon(document.querySelector('.mdc-text-field__icon'));
 
-import {MDCLineRipple} from '@material/line-ripple';
+// import {MDCLineRipple} from '@material/line-ripple';
 
-const lineRipple = new MDCLineRipple(document.querySelector('.mdc-line-ripple'));
+// const lineRipple = new MDCLineRipple(document.querySelector('.mdc-line-ripple'));
 
-import {MDCSelect} from '@material/select';
+// import {MDCSelect} from '@material/select';
 
-const select = new MDCSelect(document.querySelector('.mdc-select'));
+// const select = new MDCSelect(document.querySelector('.mdc-select'));
 
-import {MDCMenu} from '@material/menu';
+// import {MDCMenu} from '@material/menu';
 
-const menu = new MDCMenu(document.querySelector('.mdc-menu'));
-menu.open = true;
+// const menu = new MDCMenu(document.querySelector('.mdc-menu'));
+// menu.open = true;
