@@ -160,6 +160,314 @@
           </div> <!-- End of mdc card -->
         </div> <!-- End of layout grid - cell -->
         <!-- End graph card -->
+        
+
+        <!-- Datatable Card -->
+        <div class="mdc-layout-grid__cell--span-7" style="margin-bottom:12px;">
+          <div class="mdc-card mdc-elevation--z4 grid-card">
+
+            <section class="grid-data-card__content">
+              <div class="grid-data-card__header">Datacard card</div>
+
+              <div class="mdc-layout-grid__inner grid-data-card__filters"> 
+
+                <div class="mdc-layout-grid__cell">
+                  <div class="mdc-select calorie-select mdc-select--outlined">
+                    <input type="hidden" name="enhanced-select">
+                    <i class="mdc-select__dropdown-icon"></i>
+                    <div class="mdc-select__selected-text"></div>
+                    <div class="mdc-select__menu mdc-menu mdc-menu-surface filter-width-class--small">
+                      <ul class="mdc-list">
+                        <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true"></li>
+                        <li class="mdc-list-item" data-value="less-than-100">> 100</li>
+                        <li class="mdc-list-item" data-value="between-101-200">101 - 200</li>
+                        <li class="mdc-list-item" data-value="between-201-300">201 - 300</li>
+                        <li class="mdc-list-item" data-value="between-301-400">301 - 400</li>
+                        <li class="mdc-list-item" data-value="between-401-500">401-500</li>
+                      </ul>
+                    </div>
+                    <div class="mdc-notched-outline">
+                      <div class="mdc-notched-outline__leading"></div>
+                      <div class="mdc-notched-outline__notch">
+                        <label class="mdc-floating-label">Calorie range</label>
+                      </div>
+                      <div class="mdc-notched-outline__trailing"></div>
+                    </div>
+                  </div>
+                </div> <!-- End of layout grid - cell -->
+
+                <div class="mdc-layout-grid__cell">
+                  <div class="mdc-select calorie-select mdc-select--outlined">
+                    <input type="hidden" name="enhanced-select">
+                    <i class="mdc-select__dropdown-icon"></i>
+                    <div class="mdc-select__selected-text"></div>
+                    <div class="mdc-select__menu mdc-menu mdc-menu-surface filter-width-class--small">
+                      <ul class="mdc-list">
+                        <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true"></li>
+                        <li class="mdc-list-item" data-value="less-than-100">> 100</li>
+                        <li class="mdc-list-item" data-value="between-101-200">101 - 200</li>
+                        <li class="mdc-list-item" data-value="between-201-300">201 - 300</li>
+                        <li class="mdc-list-item" data-value="between-301-400">301 - 400</li>
+                        <li class="mdc-list-item" data-value="between-401-500">401-500</li>
+                      </ul>
+                    </div>
+                    <div class="mdc-notched-outline">
+                      <div class="mdc-notched-outline__leading"></div>
+                      <div class="mdc-notched-outline__notch">
+                        <label class="mdc-floating-label">Calorie range</label>
+                      </div>
+                      <div class="mdc-notched-outline__trailing"></div>
+                    </div>
+                  </div>
+                </div> <!-- End of layout grid - cell -->
+
+                <div class="mdc-layout-grid__cell--span-4"> 
+                  <div class="mdc-text-field grid-card-data-search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
+                    <i class="material-icons mdc-text-field__icon grid-card-data-search__icon">search</i>
+                    <input class="mdc-text-field__input grid-card-data-search__input">
+                    <div class="mdc-notched-outline">
+                      <div class="mdc-notched-outline__leading"></div>
+                      <div class="mdc-notched-outline__notch">
+                        <label class="mdc-floating-label grid-card-data-search__label">Search</label>
+                      </div>
+                      <div class="mdc-notched-outline__trailing"></div>
+                    </div>
+                  </div>
+                </div> <!-- End of layout grid - cell -->
+
+              </div> <!-- End of layout grid - inner -->
+              
+              <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell--span-12">
+
+                  <table class="data-table">
+                    <thead class="data-table__header">
+                      <tr class="data-table__row">
+                        <th class="data-table__cell data-table__cell--header">
+                          <!-- <i class="material-icons">arrow_drop_down</i> -->
+                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          Dessert (100g serving)</th>
+                        <th class="data-table__cell data-table__cell--header">
+                          <!-- <i class="material-icons">arrow_drop_down</i> -->
+                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          Calories</th>
+                        <th class="data-table__cell data-table__cell--header">
+                          <!-- <i class="material-icons">arrow_drop_down</i> -->
+                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          Fat (g)</th>
+                        <th class="data-table__cell data-table__cell--header">
+                          <!-- <i class="material-icons">arrow_drop_down</i> -->
+                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          Carbs (g)</th>
+                        <th class="data-table__cell data-table__cell--header">
+                          <!-- <i class="material-icons">arrow_drop_down</i> -->
+                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          Protein (g)</th>
+                        <th class="data-table__cell data-table__cell--header"></th>
+                      </tr>
+                    </thead>
+                    <tbody class="data-table__tbody">
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">
+                          <div class="mdc-form-field">
+                            <div class="mdc-checkbox">
+                              <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                              <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                              </div>
+                            </div>
+                          </div>
+                          Frozen yogurt
+                        </td>
+                        <td class="data-table__cell" data-label="Calories">159</td>
+                        <td class="data-table__cell" data-label="Fat (g)">6.0</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">24</td>
+                        <td class="data-table__cell" data-label="Protein (g)">4.0</td>
+                        <td class="data-table__cell"><button class="mdc-icon-button material-icons grid-data-card__icon">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell" data-label="Dessert (100g serving)">
+                          <div class="mdc-form-field">
+                            <div class="mdc-checkbox">
+                              <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                              <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                              </div>
+                            </div>
+                          </div>
+                          Ice cream sandwich
+                        </td>
+                        <td class="mdc-table__cell" data-label="Calories">237</td>
+                        <td class="mdc-table__cell" data-label="Fat (g)">9.0</td>
+                        <td class="mdc-table__cell" data-label="Carbs (g)">37</td>
+                        <td class="mdc-table__cell" data-label="Protein (g)">4.3</td>
+                        <td class="mdc-table__cell"><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Eclair
+                        </td>
+                        <td class="mdc-table__cell">262</td>
+                        <td class="mdc-table__cell">16.0</td>
+                        <td class="mdc-table__cell">24</td>
+                        <td class="mdc-table__cell">6.0</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Cupcake
+                        </td>
+                        <td class="mdc-table__cell">305</td>
+                        <td class="mdc-table__cell">3.7</td>
+                        <td class="mdc-table__cell">67</td>
+                        <td class="mdc-table__cell">3.9</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Gingerbread
+                        </td>
+                        <td class="mdc-table__cell">356</td>
+                        <td class="mdc-table__cell">16.0</td>
+                        <td class="mdc-table__cell">49</td>
+                        <td class="mdc-table__cell">0.0</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Jelly bean
+                        </td>
+                        <td class="mdc-table__cell">375</td>
+                        <td class="mdc-table__cell">0.0</td>
+                        <td class="mdc-table__cell">94</td>
+                        <td class="mdc-table__cell">0</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Lollipop
+                        </td>
+                        <td class="mdc-table__cell">392</td>
+                        <td class="mdc-table__cell">0.2</td>
+                        <td class="mdc-table__cell">98</td>
+                        <td class="mdc-table__cell">6.5</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="mdc-table__row">
+                        <td class="mdc-table__cell">
+                          <div class="mdc-form-field">
+                          <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
+                            <div class="mdc-checkbox__background">
+                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                              </svg>
+                              <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                          </div>
+                        </div>
+                          Honeycomb
+                        </td>
+                        <td class="mdc-table__cell">408</td>
+                        <td class="mdc-table__cell">3.2</td>
+                        <td class="mdc-table__cell">87</td>
+                        <td class="mdc-table__cell">4.9</td>
+                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                    
+                    </tbody>
+                  
+                  </table>
+                  
+                </div> <!-- End of layout grid - cell -->
+              </div> <!-- End of layout grid - inner -->
+
+            </section>
+
+            <div class="grid-data-card__footer">
+              <div class="grid-data-card__row-selection">
+                <div class="mdc-layout-grid__inner">
+                  <div class="mdc-layout-grid__cell--span-3"></div>
+                  <div class="mdc-layout-grid__cell--span-5">
+                    <div class="grid-data-card__footer-label">Rows per page: </div>
+                    <!-- @TODO Insert pagination dropdown --> 
+                  </div>
+                  <div class="mdc-layout-grid__cell--span-2">
+                    <p>1-10 of 100</p>
+                  </div>
+                  <div class="mdc-layout-grid__cell--span-2 grid-data-card__link-icons">
+                    <i class="material-icons grid-data-card__link-icon" aria-hidden="true">keyboard_arrow_left</i>
+                    <i class="material-icons grid-data-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
+                  </div>
+                </div> <!-- End of layout grid - cell -->
+              </div> <!-- End of layout grid - inner -->
+              
+            </div> <!-- End of footer -->
+
+          </div> <!-- End of mdc card -->
+        </div> <!-- End of layout grid - cell -->
+        <!-- End datatable card -->
 
       </div> <!-- End of layout grid - inner -->
 

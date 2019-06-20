@@ -25,22 +25,25 @@ import "phoenix_html"
 
 import {MDCTextField} from '@material/textfield';
 
-const searchTextField = new MDCTextField(document.querySelector('.grid-card-search__text-field'));
+// const searchTextField = new MDCTextField(document.querySelector('.grid-card-search__text-field'));
+const dataSearchTextField = new MDCTextField(document.querySelector('.grid-card-data-search__text-field'));
 // const searchTextField = new MDCTextField(document.querySelector('.search__text-field'));
 // const goToTextField = new MDCTextField(document.querySelector('.goto-text-field'));
 
 import {MDCTextFieldIcon} from '@material/textfield/icon';
 
-const icon = new MDCTextFieldIcon(document.querySelector('.grid-card-search__icon'));
+// const searchIcon = new MDCTextFieldIcon(document.querySelector('.grid-card-search__icon'));
+const dataSearchIcon = new MDCTextFieldIcon(document.querySelector('.grid-card-data-search__icon'));
 // const icon = new MDCTextFieldIcon(document.querySelector('.mdc-text-field__icon'));
 
 // import {MDCLineRipple} from '@material/line-ripple';
 
 // const lineRipple = new MDCLineRipple(document.querySelector('.mdc-line-ripple'));
 
-// import {MDCSelect} from '@material/select';
+import {MDCSelect} from '@material/select';
 
-// const select = new MDCSelect(document.querySelector('.mdc-select'));
+const calorieSelect = new MDCSelect(document.querySelector('.calorie-select'));
+// const rowSelect = new MDCSelect(document.querySelector('.row-select'));
 
 // import {MDCMenu} from '@material/menu';
 

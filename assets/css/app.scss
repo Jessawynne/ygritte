@@ -12,10 +12,12 @@
 @import "@material/list/mdc-list";
 @import "@material/menu/mdc-menu";
 @import "@material/menu-surface/mdc-menu-surface";
+@import "@material/notched-outline/mdc-notched-outline";
 @import "@material/select/mdc-select";
 @import "@material/textfield/mdc-text-field";
 @import "@material/textfield/icon/mdc-text-field-icon";
 @import "@material/top-app-bar/mdc-top-app-bar";
+
 
 html {
   height: 100%;
@@ -126,6 +128,75 @@ body {
   position: relative;
 }
 
+.grid-data-card__content {
+  .grid-data-card__header {
+    padding: 24px 24px 0px; 
+    display: block;
+  }
+  .grid-data-card__filters {
+    padding: 0px 24px; 
+  }
+}
+
+.data-table {
+  background-color: $mdc-theme-background;
+  border-collapse: collapse;
+  color: $theme-on-data-table;
+  width: 100%;
+  tr {
+    border-bottom: 2px solid $theme-border;
+  }
+  th {
+    padding: 12px 24px;
+    font-size: 0.9em;
+    text-align: left;
+  }
+  th:first-child,
+  td:first-child {
+    padding: 12px 24px;
+  }
+  td {
+    padding: 0px 24px;
+    font-size: 0.9em;
+    text-align: left;
+  }
+  tbody td {
+    font-size: 1em;
+  }
+  td:not(:first-child) {
+    text-align: right;
+  }
+}
+
+
+// .mdc-table {
+//   background-color: $mdc-theme-background;
+//   width: 100%;
+//   border-collapse: collapse;
+//   margin: 24px 0px 12px;
+//   .mdc-table__header {
+//     text-align: left;
+//     .mdc-table__cell--header {
+//       font: 500 18px/14px;
+//       letter-spacing: 0;
+//     }
+//   }
+//   .mdc-table__row {
+//     display: block;
+//     border-top-width: 1px;
+//     border-top-style: solid;
+//     margin: 0;
+//     border-top-color: $theme-border; 
+//   }
+//   th,
+//   td {
+//     padding: 6px 12px;
+//   }
+//   td:not(:first-child) {
+//     text-align: right;
+//   }
+// }
+
 // .mdc-table {
 //   background-color: $mdc-theme-background;
 //   border-collapse: collapse;
@@ -179,7 +250,6 @@ body {
   height: 400px;
 }
 
-
 .grid-card-content {
   padding: 24px 24px 0px;
   display: block;
@@ -192,6 +262,12 @@ body {
     height: 100%;
   }
 }
+
+.grid-data-card__header {
+    color: $mdc-theme-on-background;
+    font: 400 14px;
+    margin-bottom: 24px;
+  } 
 
 .grid-card-divider {
   display: block;
@@ -219,7 +295,41 @@ body {
   }
 }
 
+.grid-data-card__footer {
+  text-align: right;
+  color: $theme-on-data-table;
+  height: 56px;
+  .grid-data-card__link-icons {
+    padding: 16px 24px;
+    .grid-data-card__link-icons {
+      color: $theme-on-data-table;
+    }
+  }
+}
+
 .grid-card-search__text-field {
   width: 100%;
   margin-bottom: 24px;
+}
+
+.grid-card-data-search__text-field {
+  width: 100%;
+}
+
+// .row-select {
+//   @include mdc-select-container-fill-color(transparent);
+//   @include mdc-select-bottom-line-color(transparent);
+// }
+
+// .row-select__selected-text {
+//   padding: 0px;
+// }
+
+.grid-data-card__footer-label {
+  display: inline-block;
+  padding: 16px 24px;
+}
+
+.row-select-width {
+  width: 100px;
 }
