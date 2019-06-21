@@ -5,26 +5,26 @@
 
       <div class="mdc-layout-grid__inner">
         <div class="mdc-layout-grid__cell--span-12">
-          <section class="grid__header">
+          <section class="main-content__header">
             <h3>YouScience Analytics Home</h3>
           </section>
         </div>
 
         <!--  Large Graph Card -->
         <div class="mdc-layout-grid__cell--span-6">
-          <div class="mdc-card mdc-elevation--z4 grid-card__large">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--large">
+            <section class="grid-card__content">
               <div class="grid-card__header">Average user heart rate</div>
               <div class="grid-card__graph">
-                <div class="resp-container__large">
+                <div class="resp-container--large">
                   <iframe src="https://giphy.com/embed/lPAlSKrR8L636" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -34,19 +34,19 @@
 
         <!-- Medium Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__medium">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--medium">
+            <section class="grid-card__content">
               <div class="grid-card__header">Summer lull of users</div>
               <div class="grid-card__graph">
-                <div class="resp-container__medium">
+                <div class="resp-container--medium">
                   <iframe src="https://giphy.com/embed/l2JdTgYZ7VG4EeBVe" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -56,19 +56,19 @@
 
         <!-- Medium Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__medium">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--medium">
+            <section class="grid-card__content">
               <div class="grid-card__header">User beer consumption</div>
               <div class="grid-card__graph">
-                <div class="resp-container__medium">
+                <div class="resp-container--medium">
                   <iframe src="https://giphy.com/embed/l3Uct2K9N3CqxeCoU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                 </div>
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -78,16 +78,16 @@
 
         <!-- Small Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__small">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--small">
+            <section class="grid-card__content">
               <div class="grid-card__header">Small graph card</div>
               <div class="grid-card__graph" style="height: 100%">
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -97,16 +97,16 @@
 
         <!-- Small Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__small">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--small">
+            <section class="grid-card__content">
               <div class="grid-card__header">Small graph card</div>
               <div class="grid-card__graph" style="height: 100%">
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -116,16 +116,16 @@
 
         <!-- Small Graph Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__small">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--small">
+            <section class="grid-card__content">
               <div class="grid-card__header">Small graph card</div>
               <div class="grid-card__graph" style="height: 100%">
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Overview</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Overview</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
@@ -133,11 +133,10 @@
         </div> <!-- End of layout grid - cell -->
         <!-- End graph card -->
 
-        
         <!-- Search/Filter Card -->
         <div class="mdc-layout-grid__cell--span-3">
-          <div class="mdc-card mdc-elevation--z4 grid-card__small">
-            <section class="grid-card-content">
+          <div class="mdc-card mdc-elevation--z4 grid-card grid-card--small">
+            <section class="grid-card__content">
               <div class="mdc-text-field grid-card-search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
                 <i class="material-icons mdc-text-field__icon grid-card-search__icon">search</i>
                 <input class="mdc-text-field__input grid-card-search__input">
@@ -150,91 +149,82 @@
                 </div>
               </div>
             </section>
-            <div class="grid-card-divider"></div>
+            <div class="grid-card__divider"></div>
             <div class="grid-card__footer">
               <button class="mdc-button mdc-card__action mdc-card__action--button grid-card__button">
-                <span class="mdc-button__label"><a href="/">Past Searches</a></span>
+                <span class="mdc-button__label grid-card__label"><a href="/">Past Searches</a></span>
                 <i class="material-icons grid-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
               </button>
             </div>
           </div> <!-- End of mdc card -->
         </div> <!-- End of layout grid - cell -->
-        <!-- End graph card -->
-        
+        <!-- End search/filter card -->
 
         <!-- Datatable Card -->
         <div class="mdc-layout-grid__cell--span-7" style="margin-bottom:12px;">
-          <div class="mdc-card mdc-elevation--z4 grid-card">
+          <div class="mdc-card mdc-elevation--z4 grid-data-card">
 
             <section class="grid-data-card__content">
-              <div class="grid-data-card__header">Datacard card</div>
+              <div class="grid-data-card__title">Datacard card</div>
 
-              <div class="mdc-layout-grid__inner grid-data-card__filters"> 
+              <div class="mdc-layout-grid__inner grid-data-card__header"> 
 
-                <div class="mdc-layout-grid__cell">
-                  <div class="mdc-select calorie-select mdc-select--outlined">
-                    <input type="hidden" name="enhanced-select">
-                    <i class="mdc-select__dropdown-icon"></i>
-                    <div class="mdc-select__selected-text"></div>
-                    <div class="mdc-select__menu mdc-menu mdc-menu-surface filter-width-class--small">
-                      <ul class="mdc-list">
-                        <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true"></li>
-                        <li class="mdc-list-item" data-value="less-than-100">> 100</li>
-                        <li class="mdc-list-item" data-value="between-101-200">101 - 200</li>
-                        <li class="mdc-list-item" data-value="between-201-300">201 - 300</li>
-                        <li class="mdc-list-item" data-value="between-301-400">301 - 400</li>
-                        <li class="mdc-list-item" data-value="between-401-500">401-500</li>
-                      </ul>
-                    </div>
-                    <div class="mdc-notched-outline">
-                      <div class="mdc-notched-outline__leading"></div>
-                      <div class="mdc-notched-outline__notch">
-                        <label class="mdc-floating-label">Calorie range</label>
-                      </div>
-                      <div class="mdc-notched-outline__trailing"></div>
-                    </div>
-                  </div>
-                </div> <!-- End of layout grid - cell -->
-
-                <div class="mdc-layout-grid__cell">
-                  <div class="mdc-select calorie-select mdc-select--outlined">
-                    <input type="hidden" name="enhanced-select">
-                    <i class="mdc-select__dropdown-icon"></i>
-                    <div class="mdc-select__selected-text"></div>
-                    <div class="mdc-select__menu mdc-menu mdc-menu-surface filter-width-class--small">
-                      <ul class="mdc-list">
-                        <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true"></li>
-                        <li class="mdc-list-item" data-value="less-than-100">> 100</li>
-                        <li class="mdc-list-item" data-value="between-101-200">101 - 200</li>
-                        <li class="mdc-list-item" data-value="between-201-300">201 - 300</li>
-                        <li class="mdc-list-item" data-value="between-301-400">301 - 400</li>
-                        <li class="mdc-list-item" data-value="between-401-500">401-500</li>
-                      </ul>
-                    </div>
-                    <div class="mdc-notched-outline">
-                      <div class="mdc-notched-outline__leading"></div>
-                      <div class="mdc-notched-outline__notch">
-                        <label class="mdc-floating-label">Calorie range</label>
-                      </div>
-                      <div class="mdc-notched-outline__trailing"></div>
-                    </div>
-                  </div>
-                </div> <!-- End of layout grid - cell -->
-
+                <!-- Datatable Search -->
                 <div class="mdc-layout-grid__cell--span-4"> 
-                  <div class="mdc-text-field grid-card-data-search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
-                    <i class="material-icons mdc-text-field__icon grid-card-data-search__icon">search</i>
-                    <input class="mdc-text-field__input grid-card-data-search__input">
+                  <div class="mdc-text-field grid-data-card-search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
+                    <i class="material-icons mdc-text-field__icon grid-data-card-search__icon">search</i>
+                    <input class="mdc-text-field__input grid-data-card-search__input">
                     <div class="mdc-notched-outline">
                       <div class="mdc-notched-outline__leading"></div>
                       <div class="mdc-notched-outline__notch">
-                        <label class="mdc-floating-label grid-card-data-search__label">Search</label>
+                        <label class="mdc-floating-label grid-data-card-search__label">Search</label>
                       </div>
                       <div class="mdc-notched-outline__trailing"></div>
                     </div>
                   </div>
                 </div> <!-- End of layout grid - cell -->
+                <!-- End datatable search -->
 
+                <!-- Datatable Pagination -->
+                <div class="mdc-layout-grid__cell--span-8">
+                  <div class="mdc-layout-grid__inner grid-data-card__row-selection">
+
+                    <div class="mdc-layout-grid__cell--span-3"></div>
+                    <div class="mdc-layout-grid__cell--span-3">
+                        <div class="mdc-select mdc-select--outlined grid-data-card__header-select header-select__width">
+                          <input type="hidden" name="enhanced-select">
+                          <i class="mdc-select__dropdown-icon"></i>
+                          <div class="mdc-select__selected-text"></div>
+                          <div class="mdc-select__menu mdc-menu grid-data-card__header-menu mdc-menu-surface header-select__width">
+                            <ul class="mdc-list">
+                              <li class="mdc-list-item mdc-list-item--selected" data-value="10" aria-selected="true">10</li>
+                              <li class="mdc-list-item" data-value="25">25</li>
+                              <li class="mdc-list-item" data-value="50">50</li>
+                              <li class="mdc-list-item" data-value="100">100</li>
+                              <li class="mdc-list-item" data-value="250">250</li>
+                              <li class="mdc-list-item" data-value="500">500</li>
+                            </ul>
+                          </div>
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label class="mdc-floating-label">Rows per page:</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-4">
+                      <div class="grid-data-card__header-label">1-10 of 100</div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-2 grid-data-card__link-icons">
+                      <button class="mdc-icon-button material-icons grid-data-card__link-icon md-24">keyboard_arrow_left</button>
+                      <button class="mdc-icon-button material-icons grid-data-card__link-icon md-24">keyboard_arrow_right</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- End datatable pagination -->
+                  
               </div> <!-- End of layout grid - inner -->
               
               <div class="mdc-layout-grid__inner">
@@ -268,172 +258,100 @@
                     </thead>
                     <tbody class="data-table__tbody">
                       <tr class="data-table__row">
-                        <td class="data-table__cell" data-label="Dessert (100g serving)">
-                          <div class="mdc-form-field">
-                            <div class="mdc-checkbox">
-                              <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                              <div class="mdc-checkbox__background">
-                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                                <div class="mdc-checkbox__mixedmark"></div>
-                              </div>
-                            </div>
-                          </div>
-                          Frozen yogurt
-                        </td>
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Frozen yogurt</td>
                         <td class="data-table__cell" data-label="Calories">159</td>
                         <td class="data-table__cell" data-label="Fat (g)">6.0</td>
                         <td class="data-table__cell" data-label="Carbs (g)">24</td>
                         <td class="data-table__cell" data-label="Protein (g)">4.0</td>
-                        <td class="data-table__cell"><button class="mdc-icon-button material-icons grid-data-card__icon">edit</button></td>
-                      </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell" data-label="Dessert (100g serving)">
-                          <div class="mdc-form-field">
-                            <div class="mdc-checkbox">
-                              <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                              <div class="mdc-checkbox__background">
-                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                                <div class="mdc-checkbox__mixedmark"></div>
-                              </div>
-                            </div>
-                          </div>
-                          Ice cream sandwich
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell" data-label="Calories">237</td>
-                        <td class="mdc-table__cell" data-label="Fat (g)">9.0</td>
-                        <td class="mdc-table__cell" data-label="Carbs (g)">37</td>
-                        <td class="mdc-table__cell" data-label="Protein (g)">4.3</td>
-                        <td class="mdc-table__cell"><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Eclair
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Ice cream sandwich</td>
+                        <td class="data-table__cell" data-label="Calories">237</td>
+                        <td class="data-table__cell" data-label="Fat (g)">9.0</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">37</td>
+                        <td class="data-table__cell" data-label="Protein (g)">4.3</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">262</td>
-                        <td class="mdc-table__cell">16.0</td>
-                        <td class="mdc-table__cell">24</td>
-                        <td class="mdc-table__cell">6.0</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Cupcake
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Eclair</td>
+                        <td class="data-table__cell" data-label="Calories">262</td>
+                        <td class="data-table__cell" data-label="Fat (g)">16.0</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">24</td>
+                        <td class="data-table__cell" data-label="Protein (g)">6.0</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">305</td>
-                        <td class="mdc-table__cell">3.7</td>
-                        <td class="mdc-table__cell">67</td>
-                        <td class="mdc-table__cell">3.9</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Gingerbread
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Cupcake</td>
+                        <td class="data-table__cell" data-label="Calories">305</td>
+                        <td class="data-table__cell" data-label="Fat (g)">3.7</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">67</td>
+                        <td class="data-table__cell" data-label="Protein (g)">3.9</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">356</td>
-                        <td class="mdc-table__cell">16.0</td>
-                        <td class="mdc-table__cell">49</td>
-                        <td class="mdc-table__cell">0.0</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Jelly bean
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Gingerbread</td>
+                        <td class="data-table__cell" data-label="Calories">356</td>
+                        <td class="data-table__cell" data-label="Fat (g)">16.0</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">49</td>
+                        <td class="data-table__cell" data-label="Protein (g)">0.0</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">375</td>
-                        <td class="mdc-table__cell">0.0</td>
-                        <td class="mdc-table__cell">94</td>
-                        <td class="mdc-table__cell">0</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Lollipop
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Jelly bean</td>
+                        <td class="data-table__cell" data-label="Calories">375</td>
+                        <td class="data-table__cell" data-label="Fat (g)">0.0</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">94</td>
+                        <td class="data-table__cell" data-label="Protein (g)">0.0</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">392</td>
-                        <td class="mdc-table__cell">0.2</td>
-                        <td class="mdc-table__cell">98</td>
-                        <td class="mdc-table__cell">6.5</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
                       </tr>
-                      <tr class="mdc-table__row">
-                        <td class="mdc-table__cell">
-                          <div class="mdc-form-field">
-                          <div class="mdc-checkbox">
-                            <input type="checkbox" class="mdc-checkbox__native-control" id="checkbox-1" />
-                            <div class="mdc-checkbox__background">
-                              <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                                <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
-                              </svg>
-                              <div class="mdc-checkbox__mixedmark"></div>
-                            </div>
-                          </div>
-                        </div>
-                          Honeycomb
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Lollipop</td>
+                        <td class="data-table__cell" data-label="Calories">392</td>
+                        <td class="data-table__cell" data-label="Fat (g)">0.2</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">98</td>
+                        <td class="data-table__cell" data-label="Protein (g)">6.5</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
-                        <td class="mdc-table__cell">408</td>
-                        <td class="mdc-table__cell">3.2</td>
-                        <td class="mdc-table__cell">87</td>
-                        <td class="mdc-table__cell">4.9</td>
-                        <td><button class="mdc-icon-button material-icons md-48">edit</button></td>
+                      </tr>
+                      <tr class="data-table__row">
+                        <td class="data-table__cell" data-label="Dessert (100g serving)">Honeycomb</td>
+                        <td class="data-table__cell" data-label="Calories">408</td>
+                        <td class="data-table__cell" data-label="Fat (g)">3.2</td>
+                        <td class="data-table__cell" data-label="Carbs (g)">87</td>
+                        <td class="data-table__cell" data-label="Protein (g)">4.9</td>
+                        <td class="data-table__cell grid-data-card__icon-group">
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">visibility</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">edit</button>
+                          <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
+                        </td>
                       </tr>
                     
                     </tbody>
@@ -446,22 +364,53 @@
             </section>
 
             <div class="grid-data-card__footer">
-              <div class="grid-data-card__row-selection">
-                <div class="mdc-layout-grid__inner">
-                  <div class="mdc-layout-grid__cell--span-3"></div>
-                  <div class="mdc-layout-grid__cell--span-5">
-                    <div class="grid-data-card__footer-label">Rows per page: </div>
-                    <!-- @TODO Insert pagination dropdown --> 
+              <div class="mdc-layout-grid__inner"> 
+              
+                <div class="mdc-layout-grid__cell--span-4"></div> 
+
+                <!-- Datatable Pagination -->
+                <div class="mdc-layout-grid__cell--span-8">
+                  <div class="mdc-layout-grid__inner grid-data-card__row-selection">
+
+                    <div class="mdc-layout-grid__cell--span-3"></div>
+                    <div class="mdc-layout-grid__cell--span-3">
+                        <div class="mdc-select mdc-select--outlined grid-data-card__footer-select footer-select__width">
+                          <input type="hidden" name="enhanced-select">
+                          <i class="mdc-select__dropdown-icon"></i>
+                          <div class="mdc-select__selected-text"></div>
+                          <div class="mdc-select__menu mdc-menu grid-data-card__footer-menu mdc-menu-surface footer-select__width">
+                            <ul class="mdc-list">
+                              <li class="mdc-list-item mdc-list-item--selected" data-value="10" aria-selected="true">10</li>
+                              <li class="mdc-list-item" data-value="25">25</li>
+                              <li class="mdc-list-item" data-value="50">50</li>
+                              <li class="mdc-list-item" data-value="100">100</li>
+                              <li class="mdc-list-item" data-value="250">250</li>
+                              <li class="mdc-list-item" data-value="500">500</li>
+                            </ul>
+                          </div>
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label class="mdc-floating-label">Rows per page:</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-4">
+                      <div class="grid-data-card__header-label">1-10 of 100</div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-2 grid-data-card__link-icons">
+                      <button class="mdc-icon-button material-icons grid-data-card__link-icon md-24">keyboard_arrow_left</button>
+                      <button class="mdc-icon-button material-icons grid-data-card__link-icon md-24">keyboard_arrow_right</button>
+                    </div>
                   </div>
-                  <div class="mdc-layout-grid__cell--span-2">
-                    <p>1-10 of 100</p>
-                  </div>
-                  <div class="mdc-layout-grid__cell--span-2 grid-data-card__link-icons">
-                    <i class="material-icons grid-data-card__link-icon" aria-hidden="true">keyboard_arrow_left</i>
-                    <i class="material-icons grid-data-card__link-icon" aria-hidden="true">keyboard_arrow_right</i>
-                  </div>
-                </div> <!-- End of layout grid - cell -->
+                </div>
+                <!-- End datatable pagination -->
+                  
               </div> <!-- End of layout grid - inner -->
+              
+              
               
             </div> <!-- End of footer -->
 

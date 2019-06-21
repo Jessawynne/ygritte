@@ -25,27 +25,20 @@ import "phoenix_html"
 
 import {MDCTextField} from '@material/textfield';
 
-// const searchTextField = new MDCTextField(document.querySelector('.grid-card-search__text-field'));
-const dataSearchTextField = new MDCTextField(document.querySelector('.grid-card-data-search__text-field'));
-// const searchTextField = new MDCTextField(document.querySelector('.search__text-field'));
-// const goToTextField = new MDCTextField(document.querySelector('.goto-text-field'));
+const searchTextField = new MDCTextField(document.querySelector('.grid-card-search__text-field'));
+const dataSearchTextField = new MDCTextField(document.querySelector('.grid-data-card-search__text-field'));
 
 import {MDCTextFieldIcon} from '@material/textfield/icon';
 
-// const searchIcon = new MDCTextFieldIcon(document.querySelector('.grid-card-search__icon'));
-const dataSearchIcon = new MDCTextFieldIcon(document.querySelector('.grid-card-data-search__icon'));
-// const icon = new MDCTextFieldIcon(document.querySelector('.mdc-text-field__icon'));
-
-// import {MDCLineRipple} from '@material/line-ripple';
-
-// const lineRipple = new MDCLineRipple(document.querySelector('.mdc-line-ripple'));
+const searchIcon = new MDCTextFieldIcon(document.querySelector('.grid-card-search__icon'));
+const dataSearchIcon = new MDCTextFieldIcon(document.querySelector('.grid-data-card-search__icon'));
 
 import {MDCSelect} from '@material/select';
 
-const calorieSelect = new MDCSelect(document.querySelector('.calorie-select'));
-// const rowSelect = new MDCSelect(document.querySelector('.row-select'));
+const headerRowSelect = new MDCSelect(document.querySelector('.grid-data-card__header-select'));
+const footerRowSelect = new MDCSelect(document.querySelector('.grid-data-card__footer-select'));
 
-// import {MDCMenu} from '@material/menu';
+import {MDCMenu} from '@material/menu';
 
-// const menu = new MDCMenu(document.querySelector('.mdc-menu'));
-// menu.open = true;
+const headerRowMenu = new MDCMenu(document.querySelector('.grid-data-card__header-menu'));
+const footerRowMenu = new MDCMenu(document.querySelector('.grid-data-card__footer-menu'));

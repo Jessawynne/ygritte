@@ -1,18 +1,35 @@
 <!-- Template for Top App Bar with Drawer -->
 <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
   <div class="mdc-top-app-bar__row">
+
     <!-- YouScience Logo --> 
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
       <a class="mdc-top-app-bar__title youscience-logo-white" href="/" target="_blank"></a>
     </section>
+
     <!-- @TODO Insert Navigation Breadcrumbs -->
     <section></section>
-    <!-- @TODO Insert Search Box -->
-    <section></section>
+
+    <!-- Search Box -->
+    <%# <section>
+      <div class="mdc-text-field search__text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
+        <i class="material-icons mdc-text-field__icon search__icon">search</i>
+        <input class="mdc-text-field__input search__input">
+        <div class="mdc-notched-outline">
+          <div class="mdc-notched-outline__leading"></div>
+          <div class="mdc-notched-outline__notch">
+            <label class="mdc-floating-label search__label">Search</label>
+          </div>
+          <div class="mdc-notched-outline__trailing"></div>
+        </div>
+      </div>
+    </section> %>
+    <!-- End Search -->
+
     <!-- Notification Icon to trigger Menu -->
     <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
       <div id="notification-menu" class="mdc-menu-surface--anchor">
-        <button id="notification-button" class="mdc-top-app-bar__navigation-icon material-icons md-48">notifications</button>
+        <button id="notification-button" class="mdc-top-app-bar__navigation-icon material-icons">notifications</button>
         <div class="mdc-menu mdc-menu-surface">
           <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
             <h3 class="mdc-list-group__subheader">Notifications</h3>
@@ -23,13 +40,13 @@
         </div>
       </div>
     <!-- @TODO Insert Platform Icon to trigger Menu -->
-      <button class="mdc-top-app-bar__navigation-icon material-icons md-48">apps</button>
+      <button class="mdc-top-app-bar__navigation-icon material-icons">apps</button>
     <!-- @TODO Insert Help Icon to trigger Menu List Box with Search Box -->
-      <button class="mdc-top-app-bar__navigation-icon material-icons md-48">help</button>
+      <button class="mdc-top-app-bar__navigation-icon material-icons">help</button>
     <!-- @TODO Insert Feedback Icon to trigger Dialog Box -->
-      <button class="mdc-top-app-bar__navigation-icon material-icons md-48">more_vert</button>
+      <button class="mdc-top-app-bar__navigation-icon material-icons">more_vert</button>
     <!-- Profile Icon to trigger Account Menu -->
-      <button class="mdc-top-app-bar__navigation-icon material-icons md-48">account_circles</button>
+      <button class="mdc-top-app-bar__navigation-icon material-icons">account_circles</button>
     </section>
   </div>
 </header>
