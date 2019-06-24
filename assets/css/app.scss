@@ -221,6 +221,25 @@ html {
   }
 }
 
+.grid-data-card__title-content {
+  color: $theme-on-data-table;
+  padding: 24px 24px 12px 24px;
+  display: block;
+  .grid-data-card__title-icon {
+    color: $mdc-theme-primary;
+    padding: 0px;
+  }
+  .grid-data-card__titles {
+    display: inline-block;
+    .grid-data-card__title-text {
+      margin: 0px;
+    }
+    .grid-data-card__secondary-text {
+      margin: 0px;
+    }
+  }
+}
+
 .grid-data-card__sort-icon {
   padding: 0px;
   height: 24px;
@@ -228,9 +247,11 @@ html {
   vertical-align: middle;
 }
 
-.grid-data-card__title {
-  padding: 24px 24px 12px 24px;
-}
+// .grid-data-card__title-text {
+  
+//   margin: 0px;
+  
+// }
 
 .grid-data-card__header,
 .grid-data-card__footer {

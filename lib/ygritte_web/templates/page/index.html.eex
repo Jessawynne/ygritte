@@ -165,8 +165,14 @@
           <div class="mdc-card mdc-elevation--z4 grid-data-card">
 
             <section class="grid-data-card__content">
-              <div class="grid-data-card__title">Datacard card</div>
-
+              <div class="grid-data-card__title-content">
+                <i class="material-icons grid-data-card__title-icon md-48">bar_chart</i>
+                <span class="grid-data-card__titles">
+                  <h3 class="grid-data-card__title-text">Datatable Primary Title</h3>
+                  <p class="grid-data-card__secondary-text">Datatable Secondary Title</p>
+                </span>
+              </div>
+              
               <div class="mdc-layout-grid__inner grid-data-card__header"> 
 
                 <!-- Datatable Search -->
