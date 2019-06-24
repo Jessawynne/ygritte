@@ -161,7 +161,7 @@
         <!-- End search/filter card -->
 
         <!-- Datatable Card -->
-        <div class="mdc-layout-grid__cell--span-7" style="margin-bottom:12px;">
+        <div class="mdc-layout-grid__cell--span-8" style="margin-bottom:12px;">
           <div class="mdc-card mdc-elevation--z4 grid-data-card">
 
             <section class="grid-data-card__content">
@@ -224,9 +224,9 @@
                   </div>
                 </div>
                 <!-- End datatable pagination -->
-                  
+
               </div> <!-- End of layout grid - inner -->
-              
+
               <div class="mdc-layout-grid__inner">
                 <div class="mdc-layout-grid__cell--span-12">
 
@@ -234,24 +234,50 @@
                     <thead class="data-table__header">
                       <tr class="data-table__row">
                         <th class="data-table__cell data-table__cell--header">
-                          <!-- <i class="material-icons">arrow_drop_down</i> -->
-                          <!-- <i class="material-icons">arrow_drop_up</i> -->
-                          Dessert (100g serving)</th>
+                          <!-- First Sort Icon Option -->
+                          <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">unfold_more</button>
+                          <!-- Second Sort Icon Option -->
+                          <%# <div class="grid-data-card__sort-icons"> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_down</button> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_up</button> %>
+                          <%# </div> %>
+                          <span>Dessert (100g serving)</span>
+                        </th>
                         <th class="data-table__cell data-table__cell--header">
-                          <!-- <i class="material-icons">arrow_drop_down</i> -->
-                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          <!-- First Sort Icon Option -->
+                          <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">unfold_more</button>
+                          <!-- Second Sort Icon Option -->
+                          <%# <div class="grid-data-card__sort-icons"> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_down</button> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_up</button> %>
+                          <%# </div> %>
                           Calories</th>
                         <th class="data-table__cell data-table__cell--header">
-                          <!-- <i class="material-icons">arrow_drop_down</i> -->
-                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          <!-- First Sort Icon Option -->
+                          <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">unfold_more</button>
+                          <!-- Second Sort Icon Option -->
+                          <%# <div class="grid-data-card__sort-icons"> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_down</button> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_up</button> %>
+                          <%# </div> %>
                           Fat (g)</th>
                         <th class="data-table__cell data-table__cell--header">
-                          <!-- <i class="material-icons">arrow_drop_down</i> -->
-                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          <!-- First Sort Icon Option -->
+                          <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">unfold_more</button>
+                          <!-- Second Sort Icon Option -->
+                          <%# <div class="grid-data-card__sort-icons"> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_down</button> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_up</button> %>
+                          <%# </div> %>
                           Carbs (g)</th>
                         <th class="data-table__cell data-table__cell--header">
-                          <!-- <i class="material-icons">arrow_drop_down</i> -->
-                          <!-- <i class="material-icons">arrow_drop_up</i> -->
+                          <!-- First Sort Icon Option -->
+                          <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">unfold_more</button>
+                          <!-- Second Sort Icon Option -->
+                          <%# <div class="grid-data-card__sort-icons"> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_down</button> %>
+                            <%# <button class="mdc-icon-button material-icons grid-data-card__sort-icon md-24">arrow_drop_up</button> %>
+                          <%# </div> %>
                           Protein (g)</th>
                         <th class="data-table__cell data-table__cell--header"></th>
                       </tr>
@@ -353,20 +379,17 @@
                           <button class="mdc-icon-button material-icons grid-data-card__icon md-18">delete</button>
                         </td>
                       </tr>
-                    
                     </tbody>
-                  
                   </table>
-                  
+
                 </div> <!-- End of layout grid - cell -->
               </div> <!-- End of layout grid - inner -->
 
             </section>
 
             <div class="grid-data-card__footer">
-              <div class="mdc-layout-grid__inner"> 
-              
-                <div class="mdc-layout-grid__cell--span-4"></div> 
+              <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell--span-4"></div>
 
                 <!-- Datatable Pagination -->
                 <div class="mdc-layout-grid__cell--span-8">
@@ -407,11 +430,8 @@
                   </div>
                 </div>
                 <!-- End datatable pagination -->
-                  
+
               </div> <!-- End of layout grid - inner -->
-              
-              
-              
             </div> <!-- End of footer -->
 
           </div> <!-- End of mdc card -->

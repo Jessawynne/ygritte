@@ -193,13 +193,13 @@ html {
       border-bottom: 2px solid $theme-border;
     }
     th {
-      padding: 12px 24px;
+      padding: 12px;
       font-size: 0.9em;
       text-align: left;
     }
     th:first-child,
     td:first-child {
-      padding: 12px 24px;
+      padding: 12px 12px 12px 24px;
     }
     td {
       padding: 0px 24px;
@@ -219,6 +219,13 @@ html {
       }
     }
   }
+}
+
+.grid-data-card__sort-icon {
+  padding: 0px;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
 }
 
 .grid-data-card__title {
